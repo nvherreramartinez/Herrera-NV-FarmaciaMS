@@ -1,9 +1,14 @@
+import { Badge } from "react-bootstrap";
+import { IoCart } from "react-icons/io5";
+
 const CartWidget = ({counter}) => {
     return(
-        <div className="cartWidgetContainer"> 
-            <img src="/public/carrito-compras.png" alt="cart" className="cartIcon"></img>
+        <div>
+            <IoCart fontSize={'1.8rem'} color="white"/>
+            <Badge bg="info">15</Badge>
             <p className="cartCounter">{counter}</p>
         </div>
     )
 }
+
 export default CartWidget

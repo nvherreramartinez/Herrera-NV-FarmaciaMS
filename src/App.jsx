@@ -1,12 +1,21 @@
 import './App.css'
-import NavbarComponent from './components/NavbarComponent'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ItemListContainer from './components/ItemListContainer'
-function App(){
+import NavbarReactBootstrap from './components/NavbarReactBoostrap';
+import ItemDetailContainer from './components/ItemDetailContainer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
- return(
-  <div><NavbarComponent/>
-  <ItemListContainer greeting= 'Bienvenido a la Farmacia del Ministerio' texto= 'Servicios on line.'/></div>
- )
-} 
+function App() {
+    return (
+        <BrowserRouter>
+            <NavbarReactBootstrap/>
+            <Routes>
+                <Route path='/' element={<ItemListContainer greeting='Bienvenidos a la Farmacia del Ministerio' />} />
+                <Route path='/product/:category' element={<ItemListContainer greeting='Bienvenidos a la categoria:'/>}/>
+                <Route path='/item/:id' element={<ItemDetailContainer />} />
+            </Routes>
+        </BrowserRouter>
+    )
+}
 
 export default App
