@@ -3,7 +3,7 @@ import { IoCart } from 'react-icons/io5';
 
 const CartWidget = ({ counter }) => {
     return (
-        <div>
+        <div className='CartWidget'>
             <IoCart fontSize={'1.8rem'} color="white" />
             <Badge bg="info">15</Badge>
             <p className="cartCounter">{counter}</p>
