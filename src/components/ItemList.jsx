@@ -1,12 +1,12 @@
-import React from 'react'
-import Item from './Item'
+import React from 'react';
+import Item from './Item';
 
-const ItemList = ({products}) => {
+const ItemList = ({ products }) => {
     return (
-    <div className='d-flex justify-content-around align-items-center flex-wrap'>
-        {products.map((product)=> <Item product={product} key={product.id}/>)}
-    </div>
-    )
-}
+        <div style={{display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap'}}>
+            {products.map((producto) => <Item key={producto.id} producto={producto} />)}
+        </div>
+    );
+};
 
 export default ItemList

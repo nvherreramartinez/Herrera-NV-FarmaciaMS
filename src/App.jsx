@@ -10,9 +10,9 @@ function App() {
         <BrowserRouter>
             <NavbarReactBootstrap/>
             <Routes>
-                <Route path='/' element={<ItemListContainer greeting='Bienvenidos a la Farmacia del Ministerio' />} />
-                <Route path='/product/:category' element={<ItemListContainer greeting='Bienvenidos a la categoria:'/>}/>
-                <Route path='/item/:id' element={<ItemDetailContainer />} />
+                <Route path='/' element={<ItemListContainer greeting='Bienvenidos a la Farmacia del Ministerio'/>}/>    
+                <Route path='/:category/:categoryId' element={<ItemListContainer greeting='Bienvenidos a la Farmacia del Ministerio'/>}/>
+                <Route path='/item/:id' element={<ItemDetailContainer/>}/>
             </Routes>
         </BrowserRouter>
     )

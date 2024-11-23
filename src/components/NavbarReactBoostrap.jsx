@@ -7,25 +7,29 @@ import { NavLink } from 'react-router-dom';
 
 function NavbarReactBootstrap() {
     return (
-            <Navbar bg="dark" data-bs-theme="dark">
-                <Container>
-                    <Navbar.Brand to= '/' as={NavLink}>Farmacia del MS</Navbar.Brand>
-                    <Nav className="me-auto">
-                        <Nav.Link to='/' as={NavLink}>Home</Nav.Link>
-                        <NavDropdown title="Medicamentos" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Antibióticos</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.2">Antiinflamatorios</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.3">Antifebriles</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Psicotrópicos</NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav>
-                    <CartWidget/>
-                </Container>
-            </Navbar>
+        <Navbar bg="dark" data-bs-theme="dark">
+            <Container>
+                <Navbar.Brand as={NavLink} to="/">Farmacia del MS
+                </Navbar.Brand>
+                <Nav className="me-auto">
+                    <Nav.Link as={NavLink} to="/">Inicio
+                    </Nav.Link>
+                    <NavDropdown title="Medicamentos" id="basic-nav-dropdown">
+                        <NavDropdown.Item as={NavLink} to="/category/Antibióticos">Antibióticos</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item as={NavLink} to="/category/Analgésicos">Analgésicos</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item as={NavLink} to="/category/Antifebriles">Antifebriles</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item as={NavLink} to="/category/Benzodiacepinas">Benzodiacepinas</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item as={NavLink} to="/category/Inhibidores">Inhibidores</NavDropdown.Item>
+                    </NavDropdown>
+                </Nav>
+                <CartWidget/>
+            </Container>
+        </Navbar>
     );
 }
 
-export default NavbarReactBootstrap;
+export default NavbarReactBootstrap
