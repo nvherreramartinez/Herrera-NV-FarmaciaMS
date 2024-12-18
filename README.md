@@ -27,7 +27,7 @@ React Router Dom: para lograr la correcta navegación entre rutas fue necesario 
 Imgbb: imagenes en línea (https://imgbb.com/) <br>
 Postimage: imagenes en línea (https://postimages.org/)
 
-# Quein soy 🙎🏼‍♀️
+# Quien soy 🙎🏼‍♀️
 
 Mi nombre es Lic. Natalia Herrera y me encuentro en la búsqueda de mejorar mi entorno personal y profesional. Este proyecto se enmarca precisamente en esa búsqueda:
 "Mejorar los servicios que se brindán en las dependencias públicas y obtener logros profesionales creciendo día a día".
