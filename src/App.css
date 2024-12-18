@@ -52,8 +52,8 @@
   background-color: #fff; 
 }
 .card-img {
-  width: auto; 
-  height: auto;
+  width: 50%; 
+  height: 50%;
   object-fit: cover; 
   border-radius: 4px;
 }
