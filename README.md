@@ -1,8 +1,24 @@
-# React + Vite
+# Farmacia del MS 🏥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+El siguiente eCommerce fue pensado para llevar la farmacia del Ministerio de Salud de la Provincia de Cordobaal al sistema degital. El proyecto se crea en el marco del curso de React JS en la plataforma CoderHouse.
 
-Currently, two official plugins are available:
+[image](/public/inicio.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Instalación ⚙️
+
+Se subio el repositorio a GitHub disponibilizando la app.
+Se instalaron las dependencias necesarias para poder crear y ajustar cada parte de la app: 
+- npm install (node_modules)
+- npm run dev (servidor local)
+
+### Version HOST 💻
+
+Para acceder a la proyecto versión online, haga click aqui [Farmacia del MS] puede ingresar al siguiente link (https://herreranv-farmacia-ms.vercel.app/)
+
+### Librerias utilizadas en este proyecto 📖
+
+Bootstrap: utilizada para el styling de la app
+Firebase: utilizada como base de datos
+React Router Dom: navegación por rutas
+React Spinners: componentes spinners
+
