@@ -2,7 +2,7 @@
 
 El siguiente E-Commerce fue pensado como una alternativa a los servicios presenciales que hoy brindan las diferentes dependencias de la Farmacia Centerl. El objetivo es llevar la Farmacia Central del Ministerio de Salud de la Provincia de Córdoba a la oferta online. El proyecto se crea en el marco del curso de React JS en la plataforma CoderHouse.
 
-[inicio.png](https://postimg.cc/7CscKqWw)
+![inicio.png](https://postimg.cc/7CscKqWw)
 
 ### Instalación ⚙️
 
@@ -20,15 +20,15 @@ Para conocer un poco más sobre el proyecto se puede acceder online a una prever
 
 ### Librerias de apoyo 📖
 
-Bootstrap: de la presente librería se usaron los recursos como el NavBar principal y los botones de cambio (https://getbootstrap.com/) <br>
-React Spinners: uso de recursos spinners para costumizar los tiempos de cambio (https://www.davidhu.io/react-spinners/) <br>
-Firebase: herramienta de archivado para los productos del E-Commerce y las ordenes de compra (https://firebase.google.com/?hl=es-419) <br>
-React Router Dom: para lograr la correcta navegación entre rutas fue necesario el uso de esta herramienta (https://reactrouter.com/) <br>
-Imgbb: imagenes en línea (https://imgbb.com/) <br>
-Postimage: imagenes en línea (https://postimages.org/)
+[Bootstrap](https://getbootstrap.com/) De la presente librería se usaron los recursos como el NavBar principal y los botones de cambio. <br>
+[React Spinners](https://www.davidhu.io/react-spinners/) Uso de recursos spinners para costumizar los tiempos de cambio. <br>
+[Firebase](https://firebase.google.com/?hl=es-419) Herramienta de archivado para los productos del E-Commerce y las ordenes de compra. <br>
+[React Router Dom](https://reactrouter.com/) Para lograr la correcta navegación entre rutas fue necesario el uso de esta herramienta. <br>
+[Imgbb](https://imgbb.com/) Imágenes en línea. Como presento inconvenientes, fue reemplazado. <br>
+[Postimage](https://postimages.org/) Repositorio de imágenes en línea.
 
 # Quien soy 🙎🏼‍♀️
 
-Mi nombre es Lic. Natalia Herrera y me encuentro en la búsqueda de mejorar mi entorno personal y profesional. Este proyecto se enmarca precisamente en esa búsqueda:
-"Mejorar los servicios que se brindán en las dependencias públicas y obtener logros profesionales creciendo día a día".
+Soy la Lic. Natalia Herrera y me encuentro en la búsqueda de mejorar mi entorno personal y profesional. Este proyecto se enmarca precisamente en esa búsqueda:
+"Mejorar los servicios que se brindan en las dependencias públicas y obtener logros profesionales creciendo día a día".
 
