@@ -22,7 +22,7 @@ const ItemDetail = ({producto}) => {
         <div className="card-item">
             <div style={{display: 'flex', justifyContent: 'space-around', flexDirection: 'column', alignItems: 'center', border: 'solid 2px black', padding: '10px'}}>
                 <h1>Detalle del producto: {producto.name}</h1>
-                <img className="car-img" src={producto.img} alt={producto.name}/>
+                <img className="card-img" src={producto.img} alt={producto.name}/>
                 <p>Descripción: {producto.description}</p>
                 <p>Stock disponible: {producto.stock}</p>
                 <p>${producto.price},00</p>
