@@ -19,7 +19,7 @@ function App() {
                 <NavbarReactBootstrap/>
                 <Routes>
                     <Route path='/' element={<ItemListContainer greeting='Bienvenidos a la Farmacia del Ministerio!'/>}/>
-                    <Route path='/category/:categoryId' element={<ItemListContainer greeting='Bienvenidos a la Farmacia del Ministerio!'/>}/>
+                    <Route path='/producto/:categoryId' element={<ItemListContainer greeting='Bienvenidos a la Farmacia del Ministerio!'/>}/>
                     <Route path='/item/:id' element={<ItemDetailContainer/>}/>
                     <Route path='/cart' element={<CartContainer/>}/>
                     <Route path='/loading' element={<Loader/>}/>
