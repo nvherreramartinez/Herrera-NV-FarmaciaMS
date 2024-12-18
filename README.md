@@ -20,10 +20,15 @@ Para conocer un poco más sobre el proyecto se puede acceder online a una prever
 
 ### Librerias de apoyo 📖
 
-Bootstrap: de la presente librería se usaron los recursos como el NavBar principal y los botones de cambio (https://getbootstrap.com/)
-React Spinners: uso de recursos spinners para costumizar los tiempos de cambio (https://www.davidhu.io/react-spinners/)
-Firebase: herramienta de archivado para los productos del E-Commerce y las ordenes de compra (https://firebase.google.com/?hl=es-419)
-React Router Dom: para lograr la correcta navegación entre rutas fue necesario el uso de esta herramienta (https://reactrouter.com/)
-Imgbb: imagenes en línea (https://imgbb.com/)
+Bootstrap: de la presente librería se usaron los recursos como el NavBar principal y los botones de cambio (https://getbootstrap.com/) <br>
+React Spinners: uso de recursos spinners para costumizar los tiempos de cambio (https://www.davidhu.io/react-spinners/) <br>
+Firebase: herramienta de archivado para los productos del E-Commerce y las ordenes de compra (https://firebase.google.com/?hl=es-419) <br>
+React Router Dom: para lograr la correcta navegación entre rutas fue necesario el uso de esta herramienta (https://reactrouter.com/) <br>
+Imgbb: imagenes en línea (https://imgbb.com/) <br>
 Postimage: imagenes en línea (https://postimages.org/)
+
+# Quein soy 🙎🏼‍♀️
+
+Mi nombre es Lic. Natalia Herrera y me encuentro en la búsqueda de mejorar mi entorno personal y profesional. Este proyecto se enmarca precisamente en esa búsqueda:
+"Mejorar los servicios que se brindán en las dependencias públicas y obtener logros profesionales creciendo día a día".
 
