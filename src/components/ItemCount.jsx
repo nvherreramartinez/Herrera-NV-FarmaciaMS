@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React, {useContext, useState} from 'react'
+import { CartContext } from '../context/CartContext'
 
 const ItemCount = ({stock, initial, onAdd}) => {
     const [count, setCount] = useState(initial)
@@ -31,3 +32,4 @@ const ItemCount = ({stock, initial, onAdd}) => {
 }
 
 export default ItemCount
+
